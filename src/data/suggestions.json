@@ -1,0 +1,52 @@
+[
+  {
+    "word": "anxiety",
+    "category": "symptom",
+    "aliases": ["stress", "panic", "nervousness", "anx"]
+  },
+  {
+    "word": "depression",
+    "category": "diagnosis",
+    "aliases": ["sadness", "low mood", "depressive"]
+  },
+  {
+    "word": "insomnia",
+    "category": "symptom",
+    "aliases": ["sleep deprivation", "cannot sleep", "night"]
+  },
+  {
+    "word": "hypertension",
+    "category": "vital",
+    "aliases": ["high blood pressure", "bp"]
+  },
+  {
+    "word": "tachycardia",
+    "category": "vital",
+    "aliases": ["fast heart rate", "palpitations"]
+  },
+  {
+    "word": "hallucination",
+    "category": "symptom",
+    "aliases": ["sensory perception", "vision", "hearing"]
+  },
+  {
+    "word": "schizophrenia",
+    "category": "diagnosis",
+    "aliases": ["psychosis", "scz"]
+  },
+  {
+    "word": "cognitive",
+    "category": "behavioral",
+    "aliases": ["thinking", "memory", "cbt"]
+  },
+  {
+    "word": "dissociation",
+    "category": "symptom",
+    "aliases": ["detached", "numb"]
+  },
+  {
+    "word": "irritability",
+    "category": "symptom",
+    "aliases": ["anger", "frustration", "short-tempered"]
+  }
+]
