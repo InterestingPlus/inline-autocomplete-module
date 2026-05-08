@@ -1,4 +1,3 @@
-/* Ensures the overlay and textarea text align perfectly pixel-by-pixel */
 .autocomplete-container {
   position: relative;
   width: 100%;
@@ -7,7 +6,7 @@
 .autocomplete-textarea {
   position: relative;
   z-index: 10;
-  background-color: transparent !important; /* Must be transparent to see ghost text */
+  background-color: transparent !important;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
@@ -22,9 +21,8 @@
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-/* The actual ghost text styling */
 .ghost-text-highlight {
-  color: #94a3b8; /* Tailwind slate-400 */
+  color: #94a3b8;
   opacity: 0.6;
   font-style: italic;
 }
