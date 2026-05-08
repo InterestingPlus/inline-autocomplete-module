@@ -24,7 +24,6 @@ export const useAutocomplete = (data: SuggestionItem[]) => {
     const suggestion = getTopSuggestion(fuse, word);
 
     if (suggestion) {
-      // Calculate only the "remaining" part of the word
       const ghost = suggestion.slice(word.length);
       setState({ suggestion, ghostText: ghost, startIndex, endIndex });
     } else {

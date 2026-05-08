@@ -1,6 +1,5 @@
 export const getCurrentWord = (text: string, cursorPosition: number) => {
   const beforeCursor = text.slice(0, cursorPosition);
-  // Match the word directly behind the cursor (alphanumeric)
   const match = beforeCursor.match(/(\w+)$/);
 
   return {

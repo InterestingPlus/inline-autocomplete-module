@@ -2,51 +2,261 @@
   {
     "word": "anxiety",
     "category": "symptom",
-    "aliases": ["stress", "panic", "nervousness", "anx"]
+    "aliases": ["stress", "panic", "nervousness", "anx", "gad"]
   },
   {
     "word": "depression",
     "category": "diagnosis",
-    "aliases": ["sadness", "low mood", "depressive"]
+    "aliases": ["sadness", "low mood", "depressive", "mdd"]
   },
   {
     "word": "insomnia",
     "category": "symptom",
-    "aliases": ["sleep deprivation", "cannot sleep", "night"]
+    "aliases": [
+      "sleep deprivation",
+      "cannot sleep",
+      "night waking",
+      "sleeplessness"
+    ]
   },
   {
     "word": "hypertension",
     "category": "vital",
-    "aliases": ["high blood pressure", "bp"]
+    "aliases": ["high blood pressure", "bp", "htn"]
   },
   {
     "word": "tachycardia",
     "category": "vital",
-    "aliases": ["fast heart rate", "palpitations"]
+    "aliases": ["fast heart rate", "palpitations", "rapid pulse"]
   },
   {
     "word": "hallucination",
     "category": "symptom",
-    "aliases": ["sensory perception", "vision", "hearing"]
+    "aliases": ["sensory perception", "vision", "hearing voices", "ah", "vh"]
   },
   {
     "word": "schizophrenia",
     "category": "diagnosis",
-    "aliases": ["psychosis", "scz"]
+    "aliases": ["psychosis", "scz", "schizo"]
   },
   {
     "word": "cognitive",
     "category": "behavioral",
-    "aliases": ["thinking", "memory", "cbt"]
+    "aliases": ["thinking", "memory", "cbt", "cognition"]
   },
   {
     "word": "dissociation",
     "category": "symptom",
-    "aliases": ["detached", "numb"]
+    "aliases": ["detached", "numb", "derealization", "depersonalization"]
   },
   {
     "word": "irritability",
     "category": "symptom",
-    "aliases": ["anger", "frustration", "short-tempered"]
+    "aliases": ["anger", "frustration", "short-tempered", "agitation"]
+  },
+  {
+    "word": "dyspnea",
+    "category": "symptom",
+    "aliases": [
+      "shortness of breath",
+      "sob",
+      "breathless",
+      "difficulty breathing"
+    ]
+  },
+  {
+    "word": "bradycardia",
+    "category": "vital",
+    "aliases": ["slow heart rate", "low pulse"]
+  },
+  {
+    "word": "temperature",
+    "category": "vital",
+    "aliases": ["temp", "fever", "pyrexia", "tmax"]
+  },
+  {
+    "word": "diabetes mellitus",
+    "category": "diagnosis",
+    "aliases": ["diabetes", "dm", "type 1", "type 2", "high blood sugar"]
+  },
+  {
+    "word": "hypoglycemia",
+    "category": "symptom",
+    "aliases": ["low blood sugar", "hypo", "dizziness"]
+  },
+  {
+    "word": "fatigue",
+    "category": "symptom",
+    "aliases": ["tiredness", "exhaustion", "lethargy", "weakness"]
+  },
+  {
+    "word": "myocardial infarction",
+    "category": "diagnosis",
+    "aliases": ["heart attack", "mi", "stemi", "nstemi"]
+  },
+  {
+    "word": "oxygen saturation",
+    "category": "vital",
+    "aliases": ["spo2", "o2 sat", "pulse ox", "oxygen levels"]
+  },
+  {
+    "word": "asthma",
+    "category": "diagnosis",
+    "aliases": ["reactive airway", "wheezing", "copd"]
+  },
+  {
+    "word": "suicidal ideation",
+    "category": "behavioral",
+    "aliases": ["si", "self-harm", "suicide", "death wish"]
+  },
+  {
+    "word": "bipolar disorder",
+    "category": "diagnosis",
+    "aliases": ["manic depressive", "mania", "bpad"]
+  },
+  {
+    "word": "acetaminophen",
+    "category": "medication",
+    "aliases": ["tylenol", "paracetamol", "pain relief", "apap"]
+  },
+  {
+    "word": "ibuprofen",
+    "category": "medication",
+    "aliases": ["advil", "motrin", "nsaid", "anti-inflammatory"]
+  },
+  {
+    "word": "sertraline",
+    "category": "medication",
+    "aliases": ["zoloft", "ssri", "antidepressant"]
+  },
+  {
+    "word": "electrocardiogram",
+    "category": "treatment",
+    "aliases": ["ecg", "ekg", "heart monitor"]
+  },
+  {
+    "word": "magnetic resonance imaging",
+    "category": "treatment",
+    "aliases": ["mri", "scan", "imaging"]
+  },
+  {
+    "word": "nausea",
+    "category": "symptom",
+    "aliases": ["vomiting", "sick", "n/v", "upset stomach"]
+  },
+  {
+    "word": "vertigo",
+    "category": "symptom",
+    "aliases": ["dizziness", "spinning", "off-balance"]
+  },
+  {
+    "word": "post-traumatic stress disorder",
+    "category": "diagnosis",
+    "aliases": ["ptsd", "trauma", "flashbacks"]
+  },
+  {
+    "word": "attention deficit hyperactivity disorder",
+    "category": "diagnosis",
+    "aliases": ["adhd", "add", "hyperactive", "inattentive"]
+  },
+  {
+    "word": "blood pressure",
+    "category": "vital",
+    "aliases": ["bp", "systolic", "diastolic"]
+  },
+  {
+    "word": "respiratory rate",
+    "category": "vital",
+    "aliases": ["rr", "breaths per minute"]
+  },
+  {
+    "word": "body mass index",
+    "category": "vital",
+    "aliases": ["bmi", "weight", "obesity measure"]
+  },
+  {
+    "word": "cephalalgia",
+    "category": "symptom",
+    "aliases": ["headache", "ha", "migraine", "head pain"]
+  },
+  {
+    "word": "edema",
+    "category": "symptom",
+    "aliases": ["swelling", "fluid retention", "pitting"]
+  },
+  {
+    "word": "erythema",
+    "category": "symptom",
+    "aliases": ["redness", "rash", "skin inflammation"]
+  },
+  {
+    "word": "psychotherapy",
+    "category": "treatment",
+    "aliases": ["therapy", "counseling", "talk therapy", "cbt", "dbt"]
+  },
+  {
+    "word": "history of present illness",
+    "category": "abbreviation",
+    "aliases": ["hpi", "chief complaint", "cc"]
+  },
+  {
+    "word": "past medical history",
+    "category": "abbreviation",
+    "aliases": ["pmh", "pmhx", "background"]
+  },
+  {
+    "word": "prescription",
+    "category": "abbreviation",
+    "aliases": ["rx", "meds", "scripts"]
+  },
+  {
+    "word": "diagnosis",
+    "category": "abbreviation",
+    "aliases": ["dx", "assessment"]
+  },
+  {
+    "word": "treatment",
+    "category": "abbreviation",
+    "aliases": ["tx", "plan", "management"]
+  },
+  {
+    "word": "symptoms",
+    "category": "abbreviation",
+    "aliases": ["sx", "signs"]
+  },
+  {
+    "word": "patient",
+    "category": "abbreviation",
+    "aliases": ["pt", "client"]
+  },
+  {
+    "word": "follow up",
+    "category": "treatment",
+    "aliases": ["f/u", "return visit", "next appointment"]
+  },
+  {
+    "word": "lisinopril",
+    "category": "medication",
+    "aliases": ["ace inhibitor", "prinivil", "zestril", "bp med"]
+  },
+  {
+    "word": "metformin",
+    "category": "medication",
+    "aliases": ["glucophage", "diabetes med", "biguanide"]
+  },
+  {
+    "word": "abdomen",
+    "category": "anatomy",
+    "aliases": ["stomach", "belly", "abd", "gi"]
+  },
+  {
+    "word": "pulmonary",
+    "category": "anatomy",
+    "aliases": ["lungs", "resp", "chest"]
+  },
+  {
+    "word": "cardiac",
+    "category": "anatomy",
+    "aliases": ["heart", "cardio", "cv"]
   }
 ]

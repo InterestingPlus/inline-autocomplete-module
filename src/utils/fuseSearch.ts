@@ -3,7 +3,7 @@ import type { SuggestionItem } from "../components/autocomplete/types";
 
 const options = {
   keys: ["word", "aliases"],
-  threshold: 0.3, // Balanced fuzziness
+  threshold: 0.3,
   distance: 100,
   minMatchCharLength: 2,
 };
@@ -20,7 +20,6 @@ export const getTopSuggestion = (
 
   const topResult = results[0].item.word;
 
-  // Only suggest if the query is a prefix of the result to keep "ghost text" logic clean
   if (topResult.toLowerCase().startsWith(query.toLowerCase())) {
     return topResult;
   }
